@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".BaseActivity">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="pick up a website"
+        android:textColor="@color/color4"
+        android:textSize="30sp"
+        android:layout_marginTop="20dp"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/textView5"
+        android:textStyle="bold"/>
+    <Button
+        android:layout_width="350dp"
+        android:layout_height="70dp"
+        android:id="@+id/button1"
+        android:textSize="20sp"
+        android:text="THE WALL STREET JOURNAL"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/textView5"
+        android:layout_marginTop="20dp"
+        android:backgroundTint="@color/color2"/>
+    <Button
+        android:layout_width="350dp"
+        android:layout_height="70dp"
+        android:id="@+id/button2"
+        android:textSize="20sp"
+        android:text="CNBC"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/button1"
+        android:layout_marginTop="5dp"
+        android:backgroundTint="@color/color2"
+        />
+    <Button
+        android:layout_width="350dp"
+        android:layout_height="70dp"
+        android:id="@+id/button3"
+        android:textSize="20sp"
+        android:text="FOX NEWS"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/button2"
+        android:layout_marginTop="5dp"
+        android:backgroundTint="@color/color2"
+        />
+    <Button
+        android:layout_width="350dp"
+        android:layout_height="70dp"
+        android:id="@+id/button4"
+        android:textSize="20sp"
+        android:text="POLOTICO"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/button3"
+        android:layout_marginTop="5dp"
+        android:backgroundTint="@color/color2"
+        />
+    <Button
+        android:layout_width="350dp"
+        android:layout_height="70dp"
+        android:id="@+id/button5"
+        android:textSize="20sp"
+        android:text="UNITED NATIONS"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/button4"
+        android:layout_marginTop="5dp"
+        android:backgroundTint="@color/color2"
+        />
+    <Button
+        android:layout_width="350dp"
+        android:layout_height="70dp"
+        android:id="@+id/button6"
+        android:textSize="20sp"
+        android:text="SKY NEWS"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/button5"
+        android:layout_marginTop="5dp"
+        android:backgroundTint="@color/color2"
+        />
+    <Button
+        android:layout_width="350dp"
+        android:layout_height="70dp"
+        android:id="@+id/button7"
+        android:textSize="20sp"
+        android:text="CBS NEWS"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/button6"
+        android:layout_marginTop="5dp"
+        android:backgroundTint="@color/color2"
+        />
+    <Button
+        android:layout_width="350dp"
+        android:layout_height="70dp"
+        android:id="@+id/button8"
+        android:textSize="20sp"
+        android:text="about"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/button7"
+        android:layout_marginTop="5dp"
+        android:backgroundTint="@color/color2"
+        android:textAllCaps="false"
+        android:textColor="@color/color4"
+        />
+
+</RelativeLayout>
